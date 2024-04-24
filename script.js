@@ -105,7 +105,7 @@ function eliminarElemento(e){
     let elemento,
         elementoid;
 
-    if (e.target.classList.catains('borrar')){
+    if (e.target.classList.contains('borrar')){
         e.target.parentElement.parentElement.remove();
         elemento = e.target.parentElement.parentElement;
         elementoid = elemento.querySelector('a').getAttribute('data-id');
