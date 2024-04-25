@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+
+        <div class="menu container">
+            <a href="#" class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-cpu" viewBox="0 0 16 16">
+                    <path d="M5 0a.5.5 0 0 1 .5.5V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2h1V.5a.5.5 0 0 1 1 0V2A2.5 2.5 0 0 1 14 4.5h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14v1h1.5a.5.5 0 0 1 0 1H14a2.5 2.5 0 0 1-2.5 2.5v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14h-1v1.5a.5.5 0 0 1-1 0V14A2.5 2.5 0 0 1 2 11.5H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2v-1H.5a.5.5 0 0 1 0-1H2A2.5 2.5 0 0 1 4.5 2V.5A.5.5 0 0 1 5 0m-.5 3A1.5 1.5 0 0 0 3 4.5v7A1.5 1.5 0 0 0 4.5 13h7a1.5 1.5 0 0 0 1.5-1.5v-7A1.5 1.5 0 0 0 11.5 3zM5 6.5A1.5 1.5 0 0 1 6.5 5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5zM6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z"/>
+                </svg> Tech Store <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-wrench" viewBox="0 0 16 16">
+                    <path d="M.102 2.223A3.004 3.004 0 0 0 3.78 5.897l6.341 6.252A3.003 3.003 0 0 0 13 16a3 3 0 1 0-.851-5.878L5.897 3.781A3.004 3.004 0 0 0 2.223.1l2.141 2.142L4 4l-1.757.364zm13.37 9.019.528.026.287.445.445.287.026.529L15 13l-.242.471-.026.529-.445.287-.287.445-.529.026L13 15l-.471-.242-.529-.026-.287-.445-.445-.287-.026-.529L11 13l.242-.471.026-.529.445-.287.287-.445.529-.026L13 11z"/>
+                  </svg>
+            </a>
+
+            <input type="checkbox" id="menu">
+            <label for="menu"><img src="Imagenes/images/menu.png" class="menu-icono" alt=""></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Servicios.html">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div> <!-- Div del carrito -->
+                <ul>
+                    <li class="submenu">
+                        <img src="Imagenes/images/car.svg" id="img-carrito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div><!-- Div del carrito -->
+
+        </div><!-- Div menu container -->
+
+        <div class="header-content container">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>Audifonos premium - Versión 1</h1>
+                                <div class="prices">
+                                    <p class="price-1">199</p>
+                                    <p class="price-2">150</p>
+                                </div>
+                                <a href="#" class="btn-1">Información</a>
+                            </div>
+                            <div class="header'img">
+                                <img src="Imagenes/images/bg1.png" alt="">
+                            </div>
+                        </div>       
+                    </div> <!--/swiper-slide 1-->
+
+                    <div class="swiper-slide">
+
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>Audifonos premium - Versión 1</h1>
+                                <div class="prices">
+                                    <p class="price-1">199</p>
+                                    <p class="price-2">150</p>
+                                </div>
+                                <a href="#" class="btn-1">Información</a>
+                            </div>
+                            <div class="header'img">
+                                <img src="Imagenes/images/bg2.png" alt="">
+                            </div>
+                        </div>
+                    </div> <!--/swiper-slide 2-->
+
+                    <div class="swiper-slide">
+
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>Audifonos premium - Versión 1</h1>
+                                <div class="prices">
+                                    <p class="price-1">199</p>
+                                    <p class="price-2">150</p>
+                                </div>
+                                <a href="#" class="btn-1">Información</a>
+
+                            </div>
+                            <div class="header'img">
+                                <img src="Imagenes/images/bg3.png" alt="">
+                            </div>
+                        </div>
+                    </div> <!--/swiper-slide 3-->
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div> <!-- Div header-content container -->
+
+    </header>
+
+
+    <hr>
+
+    <section class="promos container" id="lista-1">
+
+        <h2>Promociones</h2>
+
+        <div class="categories">
+
+            <div class="categoria">
+
+                <div class="categoria-1">
+                    <h3>Promo 1</h3>
+                    <div class="prices">
+                        <p class="price-1">$199</p>
+                        <p class="precio">$150</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                </div>
+                <div class="categoria-img">
+                    <img src="Imagenes/images/ph1.png" alt="">
+                </div>
+
+            </div> <!-- /categoria 1 Promo 1 -->>
+
+            <div class="categoria">
+
+                <div class="categoria-1">
+                    <h3>Promo 2</h3>
+                    <div class="prices">
+                        <p class="price-1">$199</p>
+                        <p class="precio">$150</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+                <div class="categoria-img">
+                    <img src="Imagenes/images/ph2.png" alt="">
+                </div>
+
+            </div> <!-- /categoria 1 Promo 2 -->
+
+            <div class="categoria">
+
+                <div class="categoria-1">
+                    <h3>Promo 3</h3>
+                    <div class="prices">
+                        <p class="price-1">$199</p>
+                        <p class="precio">$150</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+                <div class="categoria-img">
+                    <img src="Imagenes/images/ph3.png" alt="">
+                </div>
+
+            </div> <!-- /categoria 1 Promo 3 -->
+
+            <div class="categoria">
+
+                <div class="categoria-1">
+                    <h3>Promo 4</h3>
+                    <div class="prices">
+                        <p class="price-1">$199</p>
+                        <p class="precio">$150</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+                <div class="categoria-img">
+                    <img src="Imagenes/images/ph4.png" alt="">
+                </div>
+
+            </div> <!-- /categoria 1 Promo 4 -->
+
+        </div>
+
+    </section>
+
+
+    <hr>
+
+
+    <section class="products container" id="lista-2">
+
+        <h2>Nuevos Productos</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="Imagenes/images/ph1.png" alt="">
+                        <div class="product-txt">
+                            <h3>Elisyum</h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">$200</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                </div> <!-- /swuper-slide 1 -->
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="Imagenes/images/ph2.png" alt="">
+                        <div class="product-txt">
+                            <h3>Elisyum</h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">$200</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div> <!-- /swuper-slide 2 -->
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="Imagenes/images/ph3.png" alt="">
+                        <div class="product-txt">
+                            <h3>Elisyum</h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">$200</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div> <!-- /swuper-slide 3 -->
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="Imagenes/images/ph4.png" alt="">
+                        <div class="product-txt">
+                            <h3>Elisyum</h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">$200</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div> <!-- /swuper-slide 4 -->
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="Imagenes/images/LaptopHP.png" alt="">
+                        <div class="product-txt">
+                            <h3>Laptop HP Victus </h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">$24,969.00</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div> <!-- /swuper-slide 5 -->
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="Imagenes/images/Pantalla50Sam.png" alt="">
+                        <div class="product-txt">
+                            <h3>SAMSUNG Pantalla 50" QLED 4K </h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">$8,495.00</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div> <!-- /swuper-slide 6 -->
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+
+        </div>
+
+    </section>
+
+
+    <hr>
+
+    <section class="products container" id="lista-3">
+
+        <h2>Productos</h2>
+
+        <div class="swiper mySwiper-2">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+
+                    <div class="product">
+                        <img src="Imagenes/images/ph1.png" alt="">
+                        <div class="product-txt">
+                            <h3>Elisyum</h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">$200</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                </div> <!-- /swuper-slide 1 -->
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="Imagenes/images/ph2.png" alt="">
+                        <div class="product-txt">
+                            <h3>Elisyum</h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">$200</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="10">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div> <!-- /swuper-slide 2 -->
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="Imagenes/images/ph3.png" alt="">
+                        <div class="product-txt">
+                            <h3>Elisyum</h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">$200</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="11">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div> <!-- /swuper-slide 3 -->
+
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="Imagenes/images/ph4.png" alt="">
+                        <div class="product-txt">
+                            <h3>Elisyum</h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">$200</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="12">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div> <!-- /swuper-slide 4 -->
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+
+        </div>
+
+    </section>
+
+
+    <footer class="footer container">
+
+        <div class="link">
+
+            <h3>Lorem</h3>
+
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+
+        </div> <!-- /link 1 -->
+
+        <div class="link">
+
+            <h3>Lorem</h3>
+
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+
+        </div><!-- /link 2 -->
+
+        <div class="link">
+
+            <h3>Lorem</h3>
+
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+
+        </div><!-- /link 3 -->
+
+        <div class="link">
+
+            <h3>Lorem</h3>
+
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+
+        </div> <!-- /link 4 -->
+
+        <div class="link">
+
+            <h3>Lorem</h3>
+
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam nulla unde minus quasi modi ratione molestias 
+                quaerat aliquid exercitationem soluta, ipsum facilis placeat explicabo molestiae. Doloremque impedit itaque 
+                ut perspiciatis.
+            </p>
+
+        </div> <!-- /link 4 -->
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
