@@ -59,7 +59,7 @@ function comprarElemento(e){
     e.preventDefault();
     if(e.target.classList.contains('agregar-carrito')) {
         const elemento = e.target.parentElement.parentElement;
-        leerDatosElemento(elemento);
+        leeDatosElemento(elemento);
     }
 }
 
