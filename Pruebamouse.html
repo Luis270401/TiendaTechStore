@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body2">
+ <!--SPARK -->
+ <script>
+    function spark(event){
+        let i = document.createElement('i');
+        i.style.left = (event.pageX) + 'px';
+        i.style.top = (event.pageY) + 'px';
+        i.style.scale = `${Math.random() * 2 + 1}`;
+        i.style.setProperty('--x',getRandomTransitionValue());
+        i.style.setProperty('--y',getRandomTransitionValue());
+
+        document.body.appendChild(i); // Agregar el elemento al cuerpo del documento
+
+        setTimeout(() => {
+            document.body.removeChild(i); // Eliminar el elemento después de 2 segundos
+        },2000)
+    }
+
+    function getRandomTransitionValue(){
+        return `${Math.random() * 400 - 200}`;
+    }
+
+    document.addEventListener('mousemove', spark);
+   </script>
+  <!--SPARK -->
+</body>
+</html>
