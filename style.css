@@ -58,7 +58,9 @@ body{
 }
 
 .menu{
-    position: absolute;
+    background-color: #adadb7;
+    position: fixed;
+    width: 100%;
     top: 0;
     left: 0;
     right: 0;
@@ -66,6 +68,7 @@ body{
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
+    transition: top 0.3s;
 }
 
 .logo{
@@ -122,7 +125,15 @@ body{
     z-index: 1;
     background-color: #242430;
     padding: 20px;
-    min-width: 400px;
+    min-width: 500px;
+}
+
+#lista-carrito th {
+    padding: 10px; /* Ajusta el espacio entre las celdas y el contenido dentro de las celdas */
+}
+
+#lista-carrito td {
+    padding: 10px; /* Ajusta el espacio entre el contenido y los bordes de las celdas */
 }
 
 table{
@@ -140,6 +151,7 @@ th, td {
     text-decoration: none;
     color: aliceblue;
     font-weight: 800;
+    cursor: pointer;
 }
 
 .header-content{
