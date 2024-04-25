@@ -12,6 +12,7 @@ body{
     background-color: #242430;
     font-family: 'Poppins', sans-serif;
     
+    
 }
 
 .container{
@@ -511,4 +512,29 @@ footer a:hover{
     height: 100%;
     filter: blur(10px);
     z-index: -1;
+}
+
+
+/*SPARK*/
+i{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: blueviolet;
+    pointer-events: none;
+    animation: animate 2s linear forwards;
+    animation-duration: 2s; /* Duración de la animación */
+}
+
+@keyframes animate{
+    0%
+    {
+        opacity: 1;
+        transform: translate(0,0);
+    }
+    100%
+    {
+        opacity: 0;
+        transform: translate(var(--x),var(--y));
+    }
 }
