@@ -180,6 +180,10 @@ th, td {
     text-decoration-line: line-through;
     margin-right: 25px;
 }
+.price-2{
+    font-size: 30px;
+    color: blueviolet;
+}
 
 .txts1{
     font-size: 25px;
