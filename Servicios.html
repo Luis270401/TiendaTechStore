@@ -12,7 +12,7 @@
 
 <body>
     <!--SPARK -->
- <script>
+ <!-- <script>
     function spark(event){
         let i = document.createElement('i');
         i.style.left = (event.pageX) + 'px';
@@ -21,10 +21,9 @@
         i.style.setProperty('--x',getRandomTransitionValue());
         i.style.setProperty('--y',getRandomTransitionValue());
 
-        document.body.appendChild(i); // Agregar el elemento al cuerpo del documento
-
+        document.body.appendChild(i);
         setTimeout(() => {
-            document.body.removeChild(i); // Eliminar el elemento después de 2 segundos
+            document.body.removeChild(i); 
         },2000)
     }
 
@@ -33,10 +32,10 @@
     }
 
     document.addEventListener('mousemove', spark);
-   </script>
+   </script> -->
   <!--SPARK -->
 
-    <header class="header">
+    <header class="header" id="titulo">
 
         <div class="menu container">
             <a href="index.html" class="logo">
@@ -386,72 +385,11 @@
     </section>
 
 
-    <footer class="footer container">
-
-        <div class="link">
-
-            <h3>Lorem</h3>
-
-            <ul>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-            </ul>
-
-        </div> <!-- /link 1 -->
-
-        <div class="link">
-
-            <h3>Lorem</h3>
-
-            <ul>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-            </ul>
-
-        </div><!-- /link 2 -->
-
-        <div class="link">
-
-            <h3>Lorem</h3>
-
-            <ul>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-            </ul>
-
-        </div><!-- /link 3 -->
-
-        <div class="link">
-
-            <h3>Lorem</h3>
-
-            <ul>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-                <li><a href="#">Lorem</a></li>
-            </ul>
-
-        </div> <!-- /link 4 -->
-
-        <div class="link">
-
-            <h3>Lorem</h3>
-
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam nulla unde minus quasi modi ratione molestias 
-                quaerat aliquid exercitationem soluta, ipsum facilis placeat explicabo molestiae. Doloremque impedit itaque 
-                ut perspiciatis.
-            </p>
-
-        </div> <!-- /link 4 -->
-
+    <footer>
+        <section>
+            <a href="#titulo">Ir arriba</a>
+        </section>
+        <p> ©Copyright 2024 </p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
