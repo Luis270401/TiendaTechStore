@@ -11,30 +11,6 @@
 </head>
 
 <body>
-    <!--SPARK -->
- <script>
-    function spark(event){
-        let i = document.createElement('i');
-        i.style.left = (event.pageX) + 'px';
-        i.style.top = (event.pageY) + 'px';
-        i.style.scale = `${Math.random() * 2 + 1}`;
-        i.style.setProperty('--x',getRandomTransitionValue());
-        i.style.setProperty('--y',getRandomTransitionValue());
-
-        document.body.appendChild(i); // Agregar el elemento al cuerpo del documento
-
-        setTimeout(() => {
-            document.body.removeChild(i); // Eliminar el elemento después de 2 segundos
-        },2000)
-    }
-
-    function getRandomTransitionValue(){
-        return `${Math.random() * 400 - 200}`;
-    }
-
-    document.addEventListener('mousemove', spark);
-   </script>
-  <!--SPARK -->
 
     <header class="header">
 
