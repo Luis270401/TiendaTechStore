@@ -55,7 +55,8 @@ body{
 }
 
 .swiper-pagination-bullet-active {
-    background-color: blueviolet;
+    box-shadow: 0 0 10px 5px rgb(255, 255, 255);
+    /*background-color: blueviolet;*/
 }
 
 .menu{
@@ -133,11 +134,11 @@ body{
 }
 
 #lista-carrito th {
-    padding: 10px; /* Ajusta el espacio entre las celdas y el contenido dentro de las celdas */
+    padding: 10px; 
 }
 
 #lista-carrito td {
-    padding: 10px; /* Ajusta el espacio entre el contenido y los bordes de las celdas */
+    padding: 10px; 
 }
 
 table{
