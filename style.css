@@ -59,9 +59,8 @@ body{
 }
 
 .menu{
-    background-color: #adadb7;
+    background-color: #242430;
     position: fixed;
-    width: 100%;
     top: 0;
     left: 0;
     right: 0;
@@ -70,6 +69,10 @@ body{
     justify-content: space-between;
     z-index: 1000;
     transition: top 0.3s;
+}
+
+.menu.container{
+    width: 100%;
 }
 
 .logo{
