@@ -8,30 +8,55 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="body2">
- <!--SPARK -->
- <script>
-    function spark(event){
-        let i = document.createElement('i');
-        i.style.left = (event.pageX) + 'px';
-        i.style.top = (event.pageY) + 'px';
-        i.style.scale = `${Math.random() * 2 + 1}`;
-        i.style.setProperty('--x',getRandomTransitionValue());
-        i.style.setProperty('--y',getRandomTransitionValue());
 
-        document.body.appendChild(i); // Agregar el elemento al cuerpo del documento
+<body>
+    <header class="header" id="titulo">
 
-        setTimeout(() => {
-            document.body.removeChild(i); // Eliminar el elemento después de 2 segundos
-        },2000)
-    }
+        <div class="menu container">
+            <a href="index.html" class="logo">
+    
+                <div class="contentW">
+                    <h3>TECH STORE</h3>
+                    <h3>TECH STORE</h3>
+                    <h3>TECH STORE</h3>
+                </div>
+            </a>
 
-    function getRandomTransitionValue(){
-        return `${Math.random() * 400 - 200}`;
-    }
+            <input type="checkbox" id="menu">
+            <label for="menu"><img src="Imagenes/images/menu.png" class="menu-icono" alt=""></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Servicios.html">Servicios</a></li>
+                    <li><a href="Productos.html">Productos</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+                    <li><a href="Pruebamouse.html">PRUEBA</a></li>
+                </ul>
+            </nav>
 
-    document.addEventListener('mousemove', spark);
-   </script>
-  <!--SPARK -->
+            <div> <!-- Div del carrito -->
+                <ul>
+                    <li class="submenu">
+                        <img src="Imagenes/images/car.svg" id="img-carrito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div><!-- Div del carrito -->
+
+        </div>
+    </header>
 </body>
 </html>
