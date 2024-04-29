@@ -23,7 +23,8 @@ body{
 .header {
     display: flex;
     align-items: center;
-    min-height: 80vh;
+    min-height: 20vh;
+
 }
 
 .swiper-slide {
@@ -343,7 +344,7 @@ footer a{
 }
 
 footer a:hover{
-    color:cornflowerblue
+    color:rgb(182, 100, 237)
 }
 
 .link{
@@ -504,8 +505,7 @@ footer a:hover{
     width: 800px;
     position: relative;
     border-radius: 25px;
-    margin: 0 auto;
-    position: relative;
+    margin: 0px auto 100px 250px;
 }
 
 .card::after{
@@ -526,7 +526,7 @@ footer a:hover{
     position: absolute;
     top: 50%;
     right: 50%;
-    transform: translate(-20%, -40%);
+    transform: translate(-25%, -35%);
 }
 
 

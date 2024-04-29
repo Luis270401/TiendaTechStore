@@ -10,9 +10,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="display: flex; align-items: center; justify-content: center;">
+<body>
     <header class="header" id="titulo">
-
         <div class="menu container">
             <a href="index.html" class="logo">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-cpu" viewBox="0 0 16 16">
@@ -56,22 +55,78 @@
             </div><!-- Div del carrito -->
         </div><!-- Div menu container -->    
     </header>
-    <section>
-        <div class="card">
-            <figure class="child-content">
-                <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" style="color: white;">
-                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-                </svg>
-            </figure>
+    
+    <section class="card">
+        <figure class="child-content">
+            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" style="color: white;">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+            </svg>
+        </figure>
+        <div style="position: relative; color: white; top: 90px; left: 250px;">
+            <h1>Contacto</h1>
+            <p style="font-size: 20px;">Correo Electronico: techStore@contacto.com</p>
+            <p style="font-size: 20px;">Telefono: 55 1122 3344</p>
         </div>
     </section>
-    <footer style="position: absolute; bottom: 0; width: 100%;">
+    
+    <section class="card">
+        <figure class="child-content">
+            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-wrench" viewBox="0 0 16 16" style="color: white;">
+                <path d="M.102 2.223A3.004 3.004 0 0 0 3.78 5.897l6.341 6.252A3.003 3.003 0 0 0 13 16a3 3 0 1 0-.851-5.878L5.897 3.781A3.004 3.004 0 0 0 2.223.1l2.141 2.142L4 4l-1.757.364zm13.37 9.019.528.026.287.445.445.287.026.529L15 13l-.242.471-.026.529-.445.287-.287.445-.529.026L13 15l-.471-.242-.529-.026-.287-.445-.445-.287-.026-.529L11 13l.242-.471.026-.529.445-.287.287-.445.529-.026L13 11z"/>
+              </svg>
+        </figure>
+        <div style="position: relative; color: white; top: 90px; left: 250px;">
+            <h1>Desarrolladores</h1>
+            <p style="font-size: 20px;">Ing. Jose Luis Carrizoza Moreno</p>
+            <p style="font-size: 20px;">Ing. Victor Gibran Alvarez Monroy</p>
+            <p style="font-size: 20px;">Ing. Eduardo Carrasco Castillo</p>
+        </div>
+    </section>
+
+    <section class="card">
+        <figure class="child-content">
+            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16" style="color: white;">
+                <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325"/>
+              </svg>
+        </figure>
+        <div style="position: relative; color: white; top: 90px; left: 250px;">
+            <h1>Diseñador</h1>
+            <p style="font-size: 20px;">Ing. Victor Gibran Alvarez Monroy </p>
+        </div>
+    </section>
+
+    <section class="card">
+        <figure class="child-content">
+            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-list-check" viewBox="0 0 16 16" style="color: white;">
+                <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3.854 2.146a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 3.293l1.146-1.147a.5.5 0 0 1 .708 0m0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 7.293l1.146-1.147a.5.5 0 0 1 .708 0m0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0"/>
+            </svg>
+        </figure>
+        <div style="position: relative; color: white; top: 90px; left: 250px;">
+            <h1>Tester</h1>
+            <p style="font-size: 20px;">Ing. Daniela Hernandez Garcia </p>
+        </div>
+    </section>
+
+    <section class="card">
+        <figure class="child-content">
+            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-graph-up" viewBox="0 0 16 16" style="color: white;">
+                <path fill-rule="evenodd" d="M0 0h1v15h15v1H0zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07"/>
+            </svg>
+        </figure>
+        <div style="position: relative; color: white; top: 90px; left: 250px;">
+            <h1>Analista</h1>
+            <p style="font-size: 20px;">Ing. Itzel Damian Marin </p>
+        </div>
+    </section>
+
+    <footer>
         <section>
             <a href="#titulo">Ir arriba</a>
         </section>
         <p> ©Copyright 2024 </p>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
